@@ -14,6 +14,7 @@ public class CarServiceImpl implements CarService {
         cars.add(new Car("Nissan",2));
         cars.add(new Car("Hummer",6));
         cars.add(new Car("Pejo",10));
+        cars.add(new Car("Pejo",11));
 
         return countCars > 5 ? cars : cars.subList(0,countCars);
     }
